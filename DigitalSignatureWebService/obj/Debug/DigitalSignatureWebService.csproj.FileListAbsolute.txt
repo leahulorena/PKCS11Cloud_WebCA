@@ -1,0 +1,11 @@
+E:\ATM\LICENTA!!!\licenta\WebCA_LeahuLorena\DigitalSignatureWebService\bin\DigitalSignatureWebService.dll.config
+E:\ATM\LICENTA!!!\licenta\WebCA_LeahuLorena\DigitalSignatureWebService\bin\DigitalSignatureWebService.dll
+E:\ATM\LICENTA!!!\licenta\WebCA_LeahuLorena\DigitalSignatureWebService\bin\DigitalSignatureWebService.pdb
+E:\ATM\LICENTA!!!\licenta\WebCA_LeahuLorena\DigitalSignatureWebService\obj\Debug\DigitalSignatureWebService.dll
+E:\ATM\LICENTA!!!\licenta\WebCA_LeahuLorena\DigitalSignatureWebService\obj\Debug\DigitalSignatureWebService.pdb
+E:\ATM\LICENTA!!!\licenta\WebCA_LeahuLorena\DigitalSignatureWebService\bin\EntityFramework.dll
+E:\ATM\LICENTA!!!\licenta\WebCA_LeahuLorena\DigitalSignatureWebService\bin\EntityFramework.SqlServer.dll
+E:\ATM\LICENTA!!!\licenta\WebCA_LeahuLorena\DigitalSignatureWebService\bin\EntityFramework.xml
+E:\ATM\LICENTA!!!\licenta\WebCA_LeahuLorena\DigitalSignatureWebService\bin\EntityFramework.SqlServer.xml
+E:\ATM\LICENTA!!!\licenta\WebCA_LeahuLorena\DigitalSignatureWebService\obj\Debug\DigitalSignatureWebService.csprojResolveAssemblyReference.cache
+E:\ATM\LICENTA!!!\licenta\WebCA_LeahuLorena\DigitalSignatureWebService\bin\BouncyCastle.Crypto.dll

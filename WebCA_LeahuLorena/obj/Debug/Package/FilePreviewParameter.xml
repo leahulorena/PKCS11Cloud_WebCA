@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/WebCA_LeahuLorena" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\ATM\\LICENTA!!!\\licenta\\WebCA_LeahuLorena\\WebCA_LeahuLorena\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\ATM\\LICENTA!!!\\licenta\\WebCA_LeahuLorena\\WebCA_LeahuLorena\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=DESKTOP-POLJKTD\SQLEXPRESS;Initial Catalog=aspnet-WebCA_LeahuLorena-20170309100511;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\ATM\\LICENTA!!!\\licenta\\WebCA_LeahuLorena\\WebCA_LeahuLorena\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Model-Web.config Connection String" description="" value="data source=(LocalDb)\v11.0;initial catalog=WebCA_LeahuLorena.Models.Model;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\ATM\\LICENTA!!!\\licenta\\WebCA_LeahuLorena\\WebCA_LeahuLorena\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Model']/@connectionString" />
+  </parameter>
+</parameters>

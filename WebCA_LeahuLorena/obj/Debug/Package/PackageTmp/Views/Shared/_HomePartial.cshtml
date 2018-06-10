@@ -1,0 +1,96 @@
+﻿@using Microsoft.AspNet.Identity
+
+
+@if (Request.IsAuthenticated)
+{
+
+    @Html.AntiForgeryToken()
+    <div class="jumbotron">
+        <h1>Semnarea electronica remote</h1>
+        <p class="lead">Generare de chei criptografice in cloud, emitere de certificate in cloud si semnarea remote folosind un certificat emis in cloud.</p>
+        <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Getting started</h2>
+            <p>
+                Arhitectura virtuala de lucru cu smartcarduri - cititor virtual, smartcard virtual, driver PKCS#11. Aceasta arhitectura virtuala
+                va permite aplicatiilor de semnare existente sa lucreze cu certificate si chei criptografice stocate in cloud.
+            </p>
+            <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Get more libraries</h2>
+            <p>
+                Datorită avantajelor oferite de către soluţiile de tip cloud computing,
+
+                multe dintre serviciile folosite de către firme, dar şi persoane fizice, sunt
+
+                externalizate în cloud. Un astfel de serviciu este şi cel de semnătură electronică.
+
+                Până în acest moment, cheile criptografice sunt generate şi păstrate pe un
+
+                dispozitiv criptografic aflat în posesia deţinătorului (smartcarduri, în cazul
+
+                persoanelor fizice şi smartcarduri sau HSM-uri în cazul persoanelor juridice).
+
+
+                criptografic.
+            </p>
+            <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Web Hosting</h2>
+            <p>Pentru a beneficia de serviciile de semnaturi electronice in cloud, trebuie sa va inregistrati. </p>
+            <p><a class="btn btn-default" href='@Url.Action("generateCertificate","Home",new {target="_blank" })' > Generate Certificate</a></p>
+            <p></p>
+        </div>
+    </div>
+}
+else
+{
+    <div class="jumbotron">
+        <h1>Semnarea electronica remote</h1>
+        <p class="lead">Generare de chei criptografice in cloud, emitere de certificate in cloud si semnarea remote folosind un certificat emis in cloud.</p>
+        <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Getting started</h2>
+            <p>
+                Arhitectura virtuala de lucru cu smartcarduri - cititor virtual, smartcard virtual, driver PKCS#11. Aceasta arhitectura virtuala
+                va permite aplicatiilor de semnare existente sa lucreze cu certificate si chei criptografice stocate in cloud.
+            </p>
+            <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Get more libraries</h2>
+            <p>
+                Datorită avantajelor oferite de către soluţiile de tip cloud computing,
+
+                multe dintre serviciile folosite de către firme, dar şi persoane fizice, sunt
+
+                externalizate în cloud. Un astfel de serviciu este şi cel de semnătură electronică.
+
+                Până în acest moment, cheile criptografice sunt generate şi păstrate pe un
+
+                dispozitiv criptografic aflat în posesia deţinătorului (smartcarduri, în cazul
+
+                persoanelor fizice şi smartcarduri sau HSM-uri în cazul persoanelor juridice).
+
+
+                criptografic.
+            </p>
+            <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Web Hosting</h2>
+            <p>Pentru a beneficia de serviciile de semnaturi electronice in cloud, trebuie sa va inregistrati. </p>
+            <p><a class="btn btn-default" @Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })></a></p>
+            <p></p>
+        </div>
+    </div>
+
+}
